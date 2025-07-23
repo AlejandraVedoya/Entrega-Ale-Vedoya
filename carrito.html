@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Pre Entrega</title>
+</head>
+
+<body>
+        <header>
+        <div class="header">
+            <a href="/index.html">
+            <img class="logo" src="/assets/house-solid.svg" alt="Logo">
+            </a>   
+            <h1> Tienda de Ropa </h1>
+            <div class="logo-carrito">
+                <a href="/carrito.html" onclick="handleCart()">
+                    <img src="/assets/cart-shopping-solid.svg" alt="logo carrito">
+                    <div class="contador">0</div>
+                </a>
+            </div>
+    </div>
+     </header>
+    <nav>
+        <ul class="lista-nav">
+            <li> <a class="lista" href="./index.html">Inicio</a> </li>
+            <li> <a class="lista" href="./reseñas.html">Reseñas</a> </li>
+            <li> <a class="lista" href="./carrito.html">Carrito</a> </li>
+            <li> <a class="lista" href="./contacto.html">Contacto</a> </li>
+        </ul>
+    </nav>
+    <section class="tableProduct" id="item-products">
+        
+        <h2>Sección de Productos</h2> <button class="btn-compra" onclick="limpiarCarrito()" >Limpiar Carrito</button>
+        <!-- <table> <thead> <tr> <th>Producto</th> <th>Cantidad</th> <th>Precio</th> <th></th> </tr> </thead> <tbody> <tr> <td> </tbody> </table>-->
+    </section>
+    <footer>
+        <ul class="footer">
+            <li class="footer-li"> <a href="#">Contacto</a> </li>
+            <li class="footer-li"> <a href="#">Instagram</a> </li>
+            <li class="footer-li"> <a href="#">Tiktok</a> </li>
+        </ul>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="/js/carrito.js"></script>
+    </body> 
+    </html>

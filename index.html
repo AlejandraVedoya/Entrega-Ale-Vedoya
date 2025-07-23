@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <title>Tienda de Ropa</title>
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <a href="/index.html">
+            <img class="logo" src="/assets/house-solid.svg" alt="Logo">
+            </a>   
+            <h1> Tienda de Ropa </h1>
+            <div class="logo-carrito">
+                <a href="/carrito.html" onclick="handleCart()">
+                    <img class="img-carrito" src="/assets/cart-shopping-solid.svg" alt="logo carrito">
+                    <div class="contador">0</div>
+                </a>
+            </div>
+    </div>
+     </header>
+        <nav>
+            <ul class="lista-nav">
+                <li>
+                    <a class="lista" href="./index.html">Inicio</a>
+                </li>
+                <li>
+                    <a class="lista" href="./reseñas.html">Reseñas</a>
+                </li>
+                <li>
+                    <a class="lista" href="./carrito.html">Carrito</a>
+                </li>
+                <li>
+                    <a class="lista" href="./contacto.html">Contacto</a>
+                </li>
+                
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section >
+        <h2>Productos</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <a href="./productos.html" class="fotos-productos"></a>
+                        <h3>Zapatillas Nike "Forest Gump" <br>modelo 1976</h3>
+                        <img class="imagen" src="/assets/nike.png" alt="muestra">
+                        <p>Prenda en Hot Sale</p>
+                        <p>Precio: $15000.00</p>                                
+                    </a>
+                        <button data-price="15000.00" class="btn-carrito">Agregar al carrito</button>   
+                        
+                    
+                </div>
+            
+            
+                <div class="card">
+                    <a href="./productos.html"></a>
+                        <h3>Campera Mitsubiyi MotoGP <br>modelo 1992</h3>
+                        <img class="imagen" src="/assets/mistu.png" alt="muestra">
+                        <p>Prenda en Hot Sale</p>
+                        <p>Precio: $45000.00</p>                               
+                    </a>
+                        <button data-price="45000.00" class="btn-carrito">Agregar al carrito</button>         
+                        
+                    
+                </div>
+            
+
+                <div class="card">
+                    <a href="./productos.html"></a>
+                        <h3>Remera Servicio Técnico Apple <br>modelo 1990</h3>
+                        <img class="imagen" src="/assets/apple.png" alt="muestra">
+                        <p>Prenda en Hot Sale</p>
+                        <p>Precio: $60000.00</p>                                 
+                    </a>
+                        <button data-price="60000.00" class="btn-carrito">Agregar al carrito</button>          
+                        
+                    
+                </div>
+              
+
+                <div class="card">
+                    <a href="./productos.html"></a>
+                        <h3>Cartera Panda MIUMIU <br>modelo 1995</h3>
+                        <img class="imagen" src="/assets/panda.png" alt="muestra">
+                        <p>Prenda en Hot Sale</p>
+                        <p>Precio: $25000.00</p>                               
+                    </a>
+                        <button data-price="25000.00" class="btn-carrito">Agregar al carrito</button>         
+                        
+                    
+                </div>
+              
+    </div>
+    </section>
+
+    
+                    <h2>Formulario de Contacto</h2>
+
+    <form  class="formulario" action="https://formspree.io/f/mgvkdyok" method="post">
+        <label for="nombre"></label>
+        <input class="controls"text id="nombre" name="nombre" required placeholder="Ingrese su nombre"><br><br>
+       
+        <label for="Apellido"></label>
+        <input class="controls"text id="apellido" name="apellido" required placeholder="Ingrese su apellido"><br><br>
+
+        <label for="email"></label>
+        <input class="controls"email id="email" name="email" required placeholder="Ingrese su email"><br><br>
+
+        <label for="telefono"></label>
+        <input class="controls"tel id="telefono" name="telefono"placeholder="Ingrese su teléfono (opcional)"><br><br>
+
+        <label for="mensaje"></label>
+        <textarea class="controls" id="mensaje" name="mensaje" rows="4" required placeholder="¿En qué podemos ayudarte?"></textarea><br><br>
+
+        <input class="button" type="submit" value="Enviar">
+    </form>
+    </main>
+    <footer >
+        <ul class="footer">
+            <li class="footer-li">
+                <a href="#">Contacto</a>
+            </li>
+            <li class="footer-li">
+                <a href="#">Instagram</a>
+            </li>
+            <li class="footer-li">
+                <a href="#">Tiktok</a>
+            </li>
+        </ul>
+
+        
+    </footer>
+    
+    <script src="js/carrito.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

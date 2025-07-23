@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;  
+
+}
+
+body {
+   
+  font-family: "Roboto", sans-serif;
+  
+  text-decoration: none;
+  background-image: linear-gradient(to top, #d8c2ff, #bcc2ff, #9ac2ff, #71c2ff, #3ac2fa);
+
+    .header{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #ffffff, #e8ebff, #c4dbff, #91ceff, #3ac2fa);
+    
+
+
+      h1{
+        
+        margin: 1rem;
+        
+        color: rgb(88, 115, 150);
+      }
+
+    }
+
+  div, .contador{  
+  a:link, a:visited, a:active {
+  text-decoration:none;
+  color:#35425c;
+    
+}
+} 
+
+      }
+
+
+      nav, ul{
+      background-color:#71c2ff;
+      border-bottom: #587396, 1rem ;
+      display: flex;
+      gap: 1rem;
+      padding: 0.5rem;
+      margin: 0 auto;
+      max-width: 100vw;
+      text-decoration: none;
+      list-style: none;
+      text-align:center;
+      
+    }
+     .lista{
+      color: black;
+      gap: 1rem;
+      padding-inline: 6rem;
+      color: rgb(86, 80, 99);
+      text-decoration: none;
+      list-style: none;
+      text-align:center;
+    }
+
+   .logo-carrito {
+    width: 80px;
+    height: 80px;
+    img{
+      width: 60px;
+      height: 60px;
+      
+        }
+   }
+   .logo-carrito:hover{
+  transform: scale(1.1);
+  transition: transform 0.99s ease;
+  }
+  table{
+     border: none;
+  }
+  .tableProduct {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 40rem;
+    text-align: center;
+    color: #35425c;
+    border: none;
+    tr{
+      background-color: #b5e9ff;
+      height: 5rem;
+      text-align: center;
+      }
+      th{
+        align-items: center ;
+        margin: 5rem;
+        background-color: #f0d9ff;
+        height: 5rem;
+        text-align: center;
+        border: none; 
+    }
+    
+      }
+    td{
+          border: none;
+        }
+    
+
+  button, .btn-compra{
+    background-color: #2a4049;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    width: 10 REM;
+
+  }
+  .button:hover {opacity: 1}
+   
+  
+
+
+    .logo{
+      
+      width: 60px;
+      height: 60px;
+      mix-blend-mode:darken;
+      }
+
+
+
+  
+.Reseñas{
+      display: flex;
+      background-color: #afa3c9;
+      width: 100vw;
+      h3, h4{
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+        font-size: 20px;
+        color: #3b72e2;
+        padding: 0.5rem;
+      }    
+          p{
+            margin: 1rem;
+            color: #2a4049;
+            font-size: 15px ;
+            text-align:center;
+          }
+        }
+.foto-ropa{
+        width: 500px;
+        height: 300px;
+      }
+
+.precio{
+  text-align:center;
+
+}
+
+
+#testimonials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+}
+.testimonial-heading{
+  letter-spacing: 1px;
+  margin: 30px 0px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-heading span{
+  font-size: 1.3rem;
+  color:#35425c;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.testimonial-box-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+}
+.testimonial-box{
+  width:500px;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+.profile-img{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.profile-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.profile{
+  display: flex;
+  align-items: center;
+}
+.name-user{
+  display: flex;
+  flex-direction: column;
+}
+.name-user strong{
+  color: #3d3d3d;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+.name-user span{
+  color: #979797;
+  font-size: 0.8rem;
+}
+.reviews{
+  color:#3b72e2;
+}
+.box-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.client-comment p{
+  font-size: 0.9rem;
+  color: #4b4b4b;
+}
+.testimonial-box:hover{
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+
+
+  
+.grid-container {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  cursor: pointer;
+  gap: 1rem;
+  }
+       
+.card{
+  background-color: #ffffff;
+  /*width: 20vw;*/
+  font-size: 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  
+  text-align:center;
+  color: #3b72e2;
+  }
+
+.btn-carrito {
+  background-color: #3b72e2;
+  width: 19.5vw;
+  text-align:center;
+  pointer-events: visible;
+  }
+
+
+h2 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-right: 6rem;
+  padding-left: 3rem;
+  padding-bottom: 1rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  color: #565063;
+  }
+      
+form, .formulario{
+  background-image: linear-gradient(to bottom, #c8b3f5, #d4c6f9, #e2d9fc, #f0ecfe, #ffffff);
+  padding-top: 3rem;
+  padding-right: 6rem;
+  padding-left: 15rem;
+  padding-bottom: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  color: #565063;
+  }
+
+.controls{
+  width: 80%;
+  background-color: #e2d9fc ;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #565063;
+  font-size: 16px;
+  color: #746f7e;
+  }
+
+.formulario .button{
+  width: 80%;
+  background-color: #565063 ;
+  border: none;
+  padding: 12px;
+  color: #bcc2ff;
+  margin: 16 px ;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+
+.footer {
+  padding: 1rem;
+  background-image: linear-gradient(to left, #ffffff, #e8ebff, #c4dbff, #91ceff, #3ac2fa);
+  font-size: small;
+  margin-top:calc(5% + 60px);
+  gap: 20rem;
+  text-align: center;
+   
+   a{
+    text-decoration: none;
+    color: #565063;
+    padding-left: 10rem;
+    text-align:center;
+     }
+  
+  }
+    
+
+
+@media screen and (max-width: 500px) {
+
+.logo{
+  width: 40px;
+  height: 40px;
+}
+
+h1{
+  padding-left: 1rem;
+  align-content: center;
+  padding-bottom: 1rem; 
+}
+
+.logo{
+  width: 40px;
+  height: 40px;
+}
+.logo-carrito{
+  width: 40px;
+  height: 40px;
+}
+
+.lista-nav{
+  display: block;
+    li{
+      padding: 0.3rem;
+      margin: 0%;
+    }
+    a, .lista{
+      margin: 0%;
+    }
+}
+
+a, .lista{
+  margin: 0%;
+}
+
+.cuerpo{
+  background-color: white;
+  justify-content: center;
+  padding-left: 1.4rem; 
+  align-items: center;
+}
+
+img, .imagen{
+  background-color: white;
+  justify-content: center;
+}
+.precio{
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.header{
+  font-size: smaller;
+  }
+.Reseñas{
+      display: block;
+      
+      h3, h4{
+        text-align: center;
+        font-size: 20px;
+        color: #3b72e2;
+      }    
+          p{
+            color: #2a4049;
+            font-size: 12px ;
+            background-color: #c8b3f5;
+            padding: 10px;
+            margin-right: 2rem;
+            
+          }
+        }
+
+
+.grid-container {
+  display: grid;
+  /*padding: 1rem;*/
+  grid-template-columns: 1fr;
+  cursor: pointer;
+  gap: 1rem;
+  }
+
+.button, .btn-carrito{
+  width: 40vw;
+}
+.logo-carrito {
+ mix-blend-mode:darken;
+}
+
+.mapa{
+  width:200px;
+  height: 200px;
+  
+}
+
+.foto-ropa{
+  width:200px;
+  height: 200px;
+  
+}
+
+
+
+} 
+
+
+
+
+@media  (max-width: 900px) {
+
+.button, .btn-carrito{
+  width: 40vw;
+}
+
+  .logo{
+  width: 40px;
+  height: 40px;
+}
+
+.grid-container {
+  display: grid;
+  padding: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  cursor: pointer;
+  gap: 1rem;
+  }
+
+h2{
+  align-content: center;
+  padding-top: 4rem;
+  padding-right: 2rem;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.2rem;
+  }
+form, .formulario{
+  padding-top: 2rem;
+  padding-right: 0.2rem;
+  padding-left: 0.5rem;
+  padding-bottom: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.2rem;
+  align-items: center;
+  }
+
+.controls{
+  width: 90%;
+  margin-left: 1rem;
+  font-size: 12px; 
+  }
+
+.formulario .button{
+  width: 90%;
+  margin-left: 1rem;
+  padding: 5px;
+  margin: 12 px ;
+  font-size: 16px;           
+  }
+
+.footer {
+  display: block;
+  padding-right: 10rem;
+
+    li{
+      padding: 0.3rem;
+    }
+      a{
+      text-decoration: none;
+      color: #565063;
+      padding-left: 10rem;   
+       }      
+  }
+ .logo-carrito {
+    width: 40px;
+    height: 40px;
+    img{
+      width: 40px;
+      height: 40px;
+      
+        }
+      }
+
+.img-carrito{
+  mix-blend-mode:darken;
+
+}
+
+.Reseñas{
+      display:block;
+      h3, h4{
+        text-align: center;
+        font-size: 20px;
+        color: #3b72e2;
+      }    
+          p{
+            color: #2a4049;
+            font-size: 12px ;
+            background-color: #c8b3f5;
+            padding: 10px;
+            
+          }
+
+        }
+.mapa{
+  width:800px;
+  height: 800px;
+  margin: 2rem;
+}
+
+.foto-ropa{
+  width:800px;
+  height: 600px;
+  margin: 2rem;
+}
+
+}
+
+@media(max-width:1060px){
+  .testimonial-box{
+      width:45%;
+      padding: 10px;
+  }
+.lista {
+  padding-inline: 3rem;
+}
+
+
+
+}
+@media(max-width:790px){
+  .testimonial-box{
+      width:100%;
+  }
+  .testimonial-heading h1{
+      font-size: 1.4rem;
+  }
+  .lista {
+  padding-inline: 1rem;
+}
+.mapa{
+  width:700px;
+  height: 700px;
+  
+}
+
+.foto-ropa{
+  width:700px;
+  height: 500px;
+  
+}
+
+
+}
+@media(max-width:340px){
+  .box-top{
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+  }
+  .reviews{
+      margin-top: 10px;
+  }
+.mapa{
+  width:270px;
+  height: 270px;
+  
+  
+}
+
+.foto-ropa{
+  width:270px;
+  height: 200px;
+  
+}
+
+
+}
+::selection{
+  color: #ffffff;
+  background-color: #252525;
+}
