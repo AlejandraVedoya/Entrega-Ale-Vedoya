@@ -1,4 +1,4 @@
-Proyecto de Pre-Entrega Web E-Commerce
+Entrega Web E-Commerce
 
 Se utilizo lenguaje html, estilos con css y javascript.
 El proyecto presenta un menu con 4 items navegables.
